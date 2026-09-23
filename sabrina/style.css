@@ -1,0 +1,29 @@
+body {
+  font-family: miFuent;
+}
+
+.container {
+  width: 800px;
+  background-color: #445060;
+  color: white;
+  margin: auto;
+}
+
+.innerContainer {
+  padding: 15px;
+}
+h1 {
+  text-align: center;
+  background-color: #102843;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#p {
+  background-color: green;
+}
+
+p {
+  background-color: blue !important;
+}

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: roboto;
+  font-weight: normal;
+  src: url(./roboto.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  font-weight: bold;
+  src: url(./roboto-bold.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  font-weight: normal;
+  font-style: italic;
+  src: url(./roboto-italic.ttf);
+}
+
+body {
+  font-family: "Playwrite BE WAL Guides", cursive;
+}
+
+h1 {
+  font-family: roboto;
+  font-style: italic;
+}

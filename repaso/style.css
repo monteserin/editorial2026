@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+/*
+El elemento cuyo clases colorinchis que está dentro de un párrafo
+*/
+p .colorinchis {
+  background-color: pink;
+}
+
+/*
+El párrafo, cuyo class es colorinchis
+*/
+p.colorinchis {
+  background-color: pink;
+}
