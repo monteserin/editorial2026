@@ -1,0 +1,21 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  background-color: #102842;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.d-block {
+  display: block;
+}
+
+.content {
+  background-color: #373f4c;
+  color: white;
+  padding: 15px;
+}
