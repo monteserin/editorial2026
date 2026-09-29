@@ -1,0 +1,35 @@
+body {
+  background-color: #c7d9ee;
+}
+h1 {
+  text-align: right;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.red {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.green {
+  color: green;
+}
+
+.big {
+  font-size: 2rem;
+}
+
+.blue {
+  color: blue;
+}

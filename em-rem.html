@@ -1,0 +1,46 @@
+<style>
+  body {
+    margin: 0;
+  }
+  .box {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: pink;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .red {
+    background-color: red;
+  }
+  .blue {
+    background-color: blue;
+  }
+
+  @media (max-width: 600px) {
+    .row {
+      flex-direction: column;
+      display: none;
+    }
+    .box {
+      width: 100%;
+    }
+  }
+</style>
+
+<div class="container">
+  <div class="row">
+    <div class="box red"></div>
+    <div class="box blue"></div>
+    <div class="box red"></div>
+    <div class="box blue"></div>
+  </div>
+</div>
